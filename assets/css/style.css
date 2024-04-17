@@ -8,9 +8,9 @@
     box-sizing:border-box;
 }
 body {
-    min-height: 100vh;
+    /* min-height: 100vh;
     display: flex;
-    flex-direction:column;
+    flex-direction:column; */
     /* Generic styles */
     color:#242424;
     font-family: "Montserrat", sans-serif;
@@ -21,9 +21,9 @@ body {
 /* Header */
 header {
     background-color: #ffc300;
-    position:fixed;
+    /* position:fixed; */
     width:100%;
-    padding:0 1rem;
+    padding:1rem 1rem .5rem 1rem;
     font-size:medium;
 }
 
@@ -32,14 +32,17 @@ header {
     height: 70px;
 }
 
-header h1 {
+/* header h1 {
     display:none;
-}
+} */
 
 h1 {
     font: weight 800;
     color:black;
     font-style: normal;
+    font-size:large;
+    text-transform: uppercase;
+    padding-bottom: .5rem;
 }
 
 #menu {
@@ -55,11 +58,22 @@ h1 {
 
 /* Main */
 main {
-    background-color:blueviolet;
+    background-color:white;
     /* Make element use excess space to push footer down */
-    flex:1 0 auto;
+    /* flex:1 0 auto; */
+}
+
+#hero-image {
+    /* height:250px;
+    width:250px; */
+    display: block;
+  /* margin-left: auto;
+  margin-right: auto; */
+  width:100%;
+    
 }
 /* Footer */
 footer {
     background-color: rgb(253, 255, 127);
+    width:100%;
 }

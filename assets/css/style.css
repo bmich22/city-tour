@@ -1,8 +1,18 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 /* Asterix wildcard selector to override default styles added by the browser */
 * {
     padding:0;
     margin:0;
     box-sizing:border-box;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction:column;
+    /* Generic styles */
+    color:#242424;
 }
 
 /* Header */
@@ -12,6 +22,8 @@ header {
 /* Main */
 main {
     background-color:blueviolet;
+    /* Make element use excess space to push footer down */
+    flex:1 0 auto;
 }
 /* Footer */
 footer {

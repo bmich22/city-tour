@@ -23,8 +23,10 @@ header {
     background-color: #ffc300;
     position:fixed;
     width:100%;
-    padding:0 5%;
+    padding:0 1rem;
+    font-size:medium;
 }
+
 .header-logo {
     width:70px;
     height: 70px;
@@ -42,21 +44,13 @@ h1 {
 
 #menu {
     font-style: normal;
+    font-size:smaller;
     list-style-type: none;
+    line-height: 18px;
 }
 
 .active {
     color:red;
-}
-
-/* Navbar styles and toggle from Love Running Project */
-nav {
-    position:absolute;
-    background-color: inherit;
-    width:100%;
-    padding: 0 5%;
-    left:0;
-    display:none;
 }
 
 /* Main */

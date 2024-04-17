@@ -28,6 +28,11 @@ h1 {
     color:black;
     font-style: normal;
 }
+
+nav {
+    font-style: normal;
+}
+
 /* Main */
 main {
     background-color:blueviolet;

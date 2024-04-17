@@ -24,6 +24,14 @@ header {
     position:fixed;
     width:100%;
 }
+.header-logo {
+    width:70px;
+    height: 70px;
+}
+
+header h1 {
+    display:none;
+}
 
 h1 {
     font: weight 800;

@@ -20,7 +20,9 @@ body {
 
 /* Header */
 header {
-    background-color: aquamarine;
+    background-color: #ffc300;
+    position:fixed;
+    width:100%;
 }
 
 h1 {

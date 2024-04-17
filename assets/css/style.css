@@ -14,11 +14,19 @@ body {
     /* Generic styles */
     color:#242424;
     font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style:italic;
 }
 
 /* Header */
 header {
     background-color: aquamarine;
+}
+
+h1 {
+    font: weight 800;
+    color:black;
+    font-style: normal;
 }
 /* Main */
 main {
